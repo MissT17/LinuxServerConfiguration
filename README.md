@@ -36,8 +36,8 @@ $ ssh -i ./path/to/the/key.pem grader@52.47.160.192 -p 2200
 - `/bestrecs/public_html` also contains an `.htaccess` file that contains rules related to redirections from http to https for the application 
 3. `Xip.io` has been used to create a substitute domain name for the restaurants application
 4. Documents have the following permissions:
-- bestrecs all folders give `root` 755 permissions
-- restaurants applications provides 755 (folders) and 644 (files) permissions to www-data user in order to write and read data related to the database 
+- `bestrecs`: all folders give `root` 755 permissions
+- `restaurants` application provides 755 (folders) and 644 (files) permissions to `www-data` user in order to write and read data related to the database 
 
 
 ## Expected Outcome
@@ -47,5 +47,5 @@ Both applications should be accessible online via provided URLs.
 - Applications should be accessible with `grader` user via `ssh`. 
 
 ## License:
-In the restaurants application, the photos are taken from [http://kaboompics.com/](http://kaboompics.com/) and are available according to kaboompics own [license](https://kaboompics.com/page/license-and-faq) for free use with the exception of redistribution.
-In the bestrecs application, additional information about places is provided by Foursquare.
+In the `restaurants` application, the photos are taken from [http://kaboompics.com/](http://kaboompics.com/) and are available according to kaboompics own [license](https://kaboompics.com/page/license-and-faq) for free use with the exception of redistribution.
+In the `bestrecs` application, additional information about places is provided by Foursquare.
